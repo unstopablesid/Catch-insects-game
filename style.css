@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #516dff;
-  color: #fff;
-  font-family: 'Press Start 2P', sans-serif;
+  background-color: #51ff7a;
+  color: #000000;
+  font-family: 'Playwrite CU', sans-serif;
   height: 100vh;
   overflow: hidden;
   margin: 0;
@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #fff;
+  color: #000000;
 }
 
 h1 {
@@ -24,10 +24,10 @@ h1 {
 
 .btn {
   border: 0;
-  background-color: #fff;
+  background-color: #000000;
   color: #516dff;
   padding: 15px 20px;
-  font-family: inherit;
+  font-family:'Playwrite CU';
   cursor: pointer;
 }
 
@@ -70,18 +70,18 @@ h1 {
   border: 2px solid #fff;
   color: #fff;
   cursor: pointer;
-  font-family: inherit;
+  font-family:'Playwrite CU';
   width: 150px;
   height: 150px;
 }
 
 .choose-insect-btn:hover {
-  background-color: #fff;
+  background-color: #000000;
   color: #516dff;
 }
 
 .choose-insect-btn:active {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .choose-insect-btn img {
